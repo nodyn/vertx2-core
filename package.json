@@ -1,10 +1,20 @@
 {
   "name": "vertx2-core",
   "version": "0.1.0",
-  "description": "Vert.x 2.x",
+  "description": "Expose Vert.x 2.x to node apps. Requires Nodyn",
   "main": "index.js",
+  "engines": {
+    "nodyn": "v0.1.1-SNAPSHOT"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "http://github.com/nodyn/vertx2-core.git"
+  },
+  "peerDependencies": {
+    "vert.x": "2.x"
   },
   "author": "Bob McWhirter",
   "license": "APL2"
