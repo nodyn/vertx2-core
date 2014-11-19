@@ -13,9 +13,6 @@
     "type" : "git", 
     "url" : "http://github.com/nodyn/vertx2-core.git"
   },
-  "peerDependencies": {
-    "vert.x": "2.x"
-  },
   "author": "Bob McWhirter",
   "license": "APL2"
 }
